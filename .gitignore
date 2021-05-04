@@ -3,7 +3,6 @@
 # pem file
 mern-app.pem
 allstate-softball.pem
-
 # dependencies
 node_modules/
 client/node_modules/
@@ -16,7 +15,7 @@ package-lock.json
 /coverage
 
 # environment
-# .env
+# .env 
 
 # production
 /client/build
