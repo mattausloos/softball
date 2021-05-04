@@ -1,5 +1,5 @@
 {
-  "name": "mern-app",
+  "name": "allstate-softball",
   "version": "1.0.0",
   "description": "template app for deploying to AWS EC2",
   "main": "index.js",
@@ -26,10 +26,10 @@
     "react",
     "express"
   ],
-  "author": "Ryuichi Miyazaki",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "bugs": {
     "url": "https://github.com/rmiyazaki6499/mern-app/issues"
   },
-  "homepage": "https://github.com/rmiyazaki6499/mern-app#readme"
+  "homepage": ""
 }
