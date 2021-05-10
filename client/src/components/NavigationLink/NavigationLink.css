@@ -1,0 +1,10 @@
+.navigation-link:hover {
+    width: 70%;
+}
+
+.navigation-link {
+    background-color: #111111;
+    width: 75%;
+    padding: 20px 0px 20px 25%;
+    transition: .09s linear;
+}
