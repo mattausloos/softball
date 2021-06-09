@@ -8,6 +8,66 @@ const RosterPage = () => {
             position: 'OF'
         },
         {
+            name: 'Dennis Vavrik',
+            batThrows: 'R/R',
+            position: 'OF'
+        },
+        {
+            name: 'Jim Fuchs',
+            batThrows: 'R/R',
+            position: 'C'
+        },
+        {
+            name: 'Jason Fuchs',
+            batThrows: 'R/R',
+            position: 'OF'
+        },
+        {
+            name: 'Josh Serio',
+            batThrows: 'R/R',
+            position: 'OF'
+        },
+        {
+            name: 'Donny Baseball',
+            batThrows: 'L/R',
+            position: '1B'
+        },
+        {
+            name: 'Steve Nelsen',
+            batThrows: 'R/R',
+            position: 'P'
+        },
+        {
+            name: 'Avery Goodman',
+            batThrows: 'R/R',
+            position: '2B'
+        },
+        {
+            name: 'Jon Keane',
+            batThrows: 'R/R',
+            position: 'SS'
+        },
+        {
+            name: 'Matt Goetz',
+            batThrows: 'R/R',
+            position: '3B'
+        },
+        {
+            name: 'Rick Steinberg',
+            batThrows: 'R/R',
+            position: '3B'
+        },
+        {
+            name: 'Kelly Goodman',
+            batThrows: 'R/R',
+            position: 'C'
+        },
+        {
+            name: `Bob 'Muthafuckin Truth' Goetz`,
+            batThrows: 'R/R',
+            position: 'GM'
+        },
+        {
             name: 'Elijah Goodman',
             batThrows: 'R/R',
             position: 'OF'

@@ -1,34 +1,41 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { gameStats } from '../../constants/gameStats';
+import { players } from '../../constants/players';
+import { getTotalStats } from '../../helpers/getTotalStats';
 import './StatsPage.css';
 
 const StatsPage = () => {
 
-    const playerInfo = [
-        {
-            name: 'Matt Ausloos',
-            games: '1',
-            atBats: '4',
-            runs: '3',
-            hits: '2',
-            doubles: '1',
-            triples: '1',
-            homeruns: '0',
-            runsBattedIn: '2',
-            baseOnBalls: '1',
-            strikeouts: '0',
-            average: '1.000',
-            onBasePercentage: '1.000',
-            sluggingPercentage: '1.500',
-            onBasePlusSluggingPercentage: '2.000'
-        }
-    ]
+    const [playerStats, setPlayerStats] = React.useState([]);
+    const [loading, setLoading] = React.useState(true);
+
+    useEffect(() => {
+        let stats = [];
+
+        players.forEach((player) => {
+            const totalStats = getTotalStats(gameStats, player);
+            stats.push(totalStats);
+        })
+
+        console.log(stats);
+
+        setPlayerStats(stats);
+        setLoading(false)
+    }, []);
+
     return (
         <>
-        StatsPage
-            <table style={{ fontSize: '12px', borderCollapse: 'collapse', width: '100%'}}>
+        {
+            loading ? 
+            (
+                <div>loading</div>
+            )
+            : (
+                <table className="stats-table" style={{ fontSize: '14px', borderCollapse: 'collapse', width: '100%'}}>
                 <thead>
-                    <th className="border" style={{ textAlign: 'left' }}>PLAYER</th>
-                    <th className="border">G</th>
+                    <tr>
+                    <th className="border" style={{ textAlign: 'left', width: '15%' }}>PLAYER</th>
+                    <th className="border" style={{ paddingLeft: '8px'}}>G</th>
                     <th className="border">AB</th>
                     <th className="border">R</th>
                     <th className="border">H</th>
@@ -38,17 +45,19 @@ const StatsPage = () => {
                     <th className="border">RBI</th>
                     <th className="border">BB</th>
                     <th className="border">SO</th>
+                    <th className="border">SAC</th>
                     <th className="border">AVG</th>
                     <th className="border">OBP</th>
                     <th className="border">SLG</th>
                     <th className="border">OPS</th>
+                    </tr>
                 </thead>
                 <tbody>
                     {
-                        playerInfo.map((player, index) => (
+                        playerStats.map((player) => (
                             <tr>
-                                <td style={{ textAlign: 'left'}}>{player.name}</td>
-                                <td>{player.games}</td>
+                                <td style={{ textAlign: 'left', borderRight: '1px solid black'}}>{player.name}</td>
+                                <td style={{ paddingLeft: '8px'}}>{player.games}</td>
                                 <td>{player.atBats}</td>
                                 <td>{player.runs}</td>
                                 <td>{player.hits}</td>
@@ -58,15 +67,18 @@ const StatsPage = () => {
                                 <td>{player.runsBattedIn}</td>
                                 <td>{player.baseOnBalls}</td>
                                 <td>{player.strikeouts}</td>
-                                <td>{player.average}</td>
-                                <td>{player.onBasePercentage}</td>
-                                <td>{player.sluggingPercentage}</td>
-                                <td>{player.onBasePlusSluggingPercentage}</td>
+                                <td>{player.sac}</td>
+                                <td style={{ borderLeft: '1px solid black'}}>{player.avg}</td>
+                                <td>{player.obp}</td>
+                                <td>{player.slg}</td>
+                                <td>{player.ops}</td>
                             </tr>
                         ))
                     }
                 </tbody>
             </table>
+            )
+        }
         </>
     )
 }

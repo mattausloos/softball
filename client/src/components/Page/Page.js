@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NewsPage from '../NewsPage/NewsPage';
 import SchedulePage from '../SchedulePage/SchedulePage';
 import StatsPage from '../StatsPage/StatsPage';
 import RosterPage from '../RosterPage/RosterPage';
+import BoxScore from '../BoxScore/BoxScore';
 
 
 
 const Page = (props) => {
+    const [boxScore, setBoxScore] = useState(0);
+    console.log('box', boxScore)
 
     const pageType = () => {
         switch(props.currentPage){
@@ -16,7 +19,7 @@ const Page = (props) => {
                 );
             case 1:
                 return (
-                    <SchedulePage />
+                    <SchedulePage setCurrentPage={props.setCurrentPage} setBoxScore={setBoxScore}/>
                 );
             case 2:
                 return (
@@ -25,6 +28,10 @@ const Page = (props) => {
             case 3:
                 return (
                     <RosterPage />
+                );
+            case 4:
+                return (
+                    <BoxScore game={boxScore}/>
                 );
             default:
                 return (
@@ -36,7 +43,7 @@ const Page = (props) => {
     }
 
     return (
-        <div style={{ margin: '80px 5% 0% 5%'}}>
+        <div style={{ margin: '0px 5% 0% 5%', height: '88vh', overflow: 'scroll', paddingRight: `${props.currentPage === 0 ? '20px' : '0px'}`, paddingTop: '40px'}}>
         {
             pageType()
         }
