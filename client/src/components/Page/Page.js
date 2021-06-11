@@ -9,7 +9,6 @@ import BoxScore from '../BoxScore/BoxScore';
 
 const Page = (props) => {
     const [boxScore, setBoxScore] = useState(0);
-    console.log('box', boxScore)
 
     const pageType = () => {
         switch(props.currentPage){

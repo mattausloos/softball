@@ -4,7 +4,7 @@ import Side from './components/Side/Side';
 import './App.css';
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState(2);
+  const [currentPage, setCurrentPage] = useState(0);
   return (
     <div className="App" style={{ display: 'flex', height: '100vh', fontFamily: 'Arial, Helvetica, sans-serif' }}>
       <Side currentPage={currentPage} setCurrentPage={setCurrentPage} />
