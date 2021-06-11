@@ -548,7 +548,7 @@ export const gameStats = [
                 runsBattedIn: '6',
                 baseOnBalls: '0',
                 strikeouts: '0',
-                sac: '0',
+                sac: '1',
             },
             {
                 name: 'Kelly Goodman',
