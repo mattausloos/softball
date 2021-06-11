@@ -39,10 +39,10 @@ export const games = [
         number: 5,
         date: 'June 10th',
         versus: 'vs. Team Charter',
-        result: '',
+        result: 'L',
         time: '9:00',
         field: '#1',
-        score: ''
+        score: ', 15-14'
     },
     {
         number: 6,

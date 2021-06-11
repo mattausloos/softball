@@ -1,12 +1,23 @@
 import React from 'react';
 import image1 from '../../images/game1.jpg';
 import image4 from '../../images/game4.jpg';
-
+import image5 from '../../images/jimcaughtlooking.jpg';
+import './NewsPage.css';
 
 const NewsPage = () => {
-
     return (
         <div style={{ display: 'flex', flexDirection: 'column'}}>
+            <div style={{ paddingBottom: '80px', borderBottom: '1px solid rgb(196,196,196)'}}>
+                <h1 style={{ textAlign: 'left', marginBottom: '9px'}}>Serio Shines in Loss</h1>
+                <h3 style={{ color: 'gray', textAlign: 'left', margin:'0px' }}>Thursday June 10th</h3>
+                <div style={{ float: 'right', margin: '30px 0px 10px 25px'}}>
+                    <img src={image5} alt="image" height="410px" width="450px" style={{ borderRadius: '5px'}}></img>
+                    <h5 style={{ color: 'gray', textAlign: 'left', margin: '3px'}}>Jim Fuc<span className="backwards">K</span>s struck out looking twice</h5>
+                </div>
+                <p style={{ marginTop: '30px', textAlign: 'left', lineHeight: '24px' }}>
+                    Elijah Goodman is no longer elite. A few years ago when he came up to bat with the game on the line you knew he was going to win you the game. Not anymore. It’s a sad truth but the Elijah Goodman we once knew and loved is no more than a slightly above average player in the league. Jason Fuchs had this to say on his teammate, “Maybe he’s not as good as he use to be... but damn does he have nice glutes”. After falling to Team Charter 15-14 Team Allstate drops their season record to 2-2. They had their chances all game but could never get the big hit to put them over the top. They fell behind early thanks to horrific fielding from short stop Jon Keane and right center fielder Jason Fuchs. Jon Keane leads the team in errors and has been an embarrassment to the team on and off the field. Manager Kelly Goodman had this to say on the short stop, “What can I do? I didn’t think it was possible to be that bad. What the fuck can I do? If he would spend a little less time at bible study and a little more time practicing ground balls he might not be so bad”. Kelly Goodman is Jewish and has quote “No respect” for anyone who is not Jewish. Speaking of Jewish people Kelly’s younger brother Avery had a chance to win the game in the bottom of the 7th but failed miserably as he flew out to shallow right center field. Avery was seen after the game crying in the parking lot. Josh Serio hit his second home run of the season. Yes we are 4 games into the season and he just hit his 2nd home run. Can you say “PATHETIC”? Why has Josh been so bad this season and lacks the power he once had? Teammate Dennis Vavrik had this to say “I don’t like the kid, I never have liked the kid, and I never will like the kid”. Although that didn’t answer the question at all it does make you wonder why does Dennis hate Josh Serio? Unable to put our finger on it we asked members of Team Allstate for their insights. Jim Fuchs had this to say “All I know is they were messing around for a while last season then something happened and they won’t even speak to each other anymore. It sucks but that’s why I will never get romantically involved with anyone on the team”. Jim did say off the record that he did think Josh was a good looking young man and did in fact mess around with him on numerous occasions. Now let’s focus our attention back on the game. Josh Serio won himself player of the game going 2-3 with a HR and 6 RBI’s. Kelly Goodman remained hot at the plate going 3-3. Jon Keane (Christian) also went an impressive 3-3. Donny Baseball (Bartender) appeared to turn his season around going 3-4. Donny had this to say post game “It’s a joke I was hitting 8th in the lineup. Game day manager Elijah is a moron. I have no respect for him and am not surprised were on a 2 game losing streak with that idiot in charge of the lineup”. Jason Fuchs made up for his horrific fielding by going 4-5 at the plate, proving he has what it takes to be an elite leadoff hitter in this league. Dennis Vavrik and Jim Fuchs continue to struggle at the plate but that is understandable given they can’t get Josh Serio out of their heads. Elijah and his uncle Avery had decent games and Matt Ausloos was a horrific 1-4. Team Allstate will take the field next Thursday as they look to snap their two game losing streak. 
+                </p>
+            </div>
             <div style={{ paddingBottom: '80px', borderBottom: '1px solid rgb(196,196,196)'}}>
                 <h1 style={{ textAlign: 'left', marginBottom: '9px'}}>Keane Goes 0-3</h1>
                 <h3 style={{ color: 'gray', textAlign: 'left', margin:'0px' }}>Thursday June 3rd</h3>
