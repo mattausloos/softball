@@ -12,4 +12,7 @@ export const players = [
     'Jim Fuchs',
     'Rick Steinberg',
     'Dennis Vavrik',
+    'Matthew Liewen',
+    'Sam Botbol',
+    'Bob \'Truth\' Goetz'
 ]

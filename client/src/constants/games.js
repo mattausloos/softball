@@ -48,10 +48,10 @@ export const games = [
         number: 6,
         date: 'June 17th',
         versus: 'vs. Pizza Man',
-        result: '',
+        result: 'L',
         time: '6:00',
         field: '#2',
-        score: ''
+        score: ', 19-8'
     },
     {
         number: 7,

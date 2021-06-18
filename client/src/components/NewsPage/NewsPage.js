@@ -2,11 +2,23 @@ import React from 'react';
 import image1 from '../../images/game1.jpg';
 import image4 from '../../images/game4.jpg';
 import image5 from '../../images/jimcaughtlooking.jpg';
+import image6 from '../../images/game6meme.jpg';
 import './NewsPage.css';
 
 const NewsPage = () => {
     return (
         <div style={{ display: 'flex', flexDirection: 'column'}}>
+            <div style={{ paddingBottom: '80px', borderBottom: '1px solid rgb(196,196,196)'}}>
+                <h1 style={{ textAlign: 'left', marginBottom: '9px'}}>3 Game Losing Streak!</h1>
+                <h3 style={{ color: 'gray', textAlign: 'left', margin:'0px' }}>Thursday June 17th</h3>
+                <div style={{ float: 'right', margin: '30px 0px 10px 25px'}}>
+                    <img src={image6} alt="image" height="390px" width="450px" style={{ borderRadius: '5px'}}></img>
+                    <h5 style={{ color: 'gray', textAlign: 'left', margin: '3px'}}>Manager Kelly Goodman signs outfielders Matt Liewen and Sam Botbol</h5>
+                </div>
+                <p style={{ marginTop: '30px', textAlign: 'left', lineHeight: '24px' }}>
+                OH NO!! We suck again. Team Allstate got a good ole ass kicking Thursday night as they lost 19-8 to team Pizza man. The team was short of their normal starters as LF Elijah Goodman was out with injury and SS Jon Keane and RC Josh Serio just didn't want to show up. Team Allstate managed to keep the game competitive early on as both teams went back and forth. But in the 5th inning, the Pizza Man offense decided to put an end to a sorry ass Allstate team by scoring 10 runs. The game was over from then on. Donny baseball went 0-3. He did not record a hit all night. The once dominate hitter looks to be in a steady decline having a lot of fans asking “Why is he even on the team?”. When asked if Donny would be on the roster next week owner Kelly Goodman said “I have no comment. We will be exploring all options out there and determine which one gives our team the best chance to win”. Kelly remained hot at the plate going 2-2 raising his season average to career highs. It is safe to say he has found the fountain of youth outside of pulling his groin running to second base. His son-in-law Samuel Botbol was seen inbetween innings intensely massaging Kelly’s groin hoping to get him back on the field but it didn’t work as he had to come out of the game. Matt Ausloos went 3-4, Avery went 3-4, Jason went 2-3, Matt Liewen went 2-4 with good efforts in the field and everyone else was horrible and or pathetic. Except Samuel who recorded his first hit in his first ever softball game. Congratulations to Sam! Team Allstate takes the field next Thursday. Hopefully they can win. 
+                </p>
+            </div>
             <div style={{ paddingBottom: '80px', borderBottom: '1px solid rgb(196,196,196)'}}>
                 <h1 style={{ textAlign: 'left', marginBottom: '9px'}}>Serio Shines in Loss</h1>
                 <h3 style={{ color: 'gray', textAlign: 'left', margin:'0px' }}>Thursday June 10th</h3>

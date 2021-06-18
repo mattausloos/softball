@@ -71,7 +71,17 @@ const RosterPage = () => {
             name: 'Elijah Goodman',
             batThrows: 'R/R',
             position: 'OF'
-        }
+        },
+        {
+            name: 'Matthew Liewen',
+            batThrows: 'R/R',
+            position: 'OF'
+        },
+        {
+            name: 'Sam Botbol',
+            batThrows: 'R/R',
+            position: 'OF'
+        },
     ]
     return (
         <table style={{ width: '100%' }}>
