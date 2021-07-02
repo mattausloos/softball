@@ -240,12 +240,44 @@ export const games = [
     number: 8,
     date: "July 1st",
     versus: "vs. Leffs Lucky Town",
-    result: "",
+    result: "L",
     time: "7:00",
     field: "#2",
-    score: "",
+    score: ", 19-4",
     opponent: "Leffs Lucky Town",
     home: false,
+    allstateScore: 4,
+    opponentScore: 19,
+    runs: [
+      {
+        allstate: 4,
+        opponent: 3,
+      },
+      {
+        allstate: 0,
+        opponent: 2,
+      },
+      {
+        allstate: 0,
+        opponent: 2,
+      },
+      {
+        allstate: 0,
+        opponent: 3,
+      },
+      {
+        allstate: 0,
+        opponent: 8,
+      },
+      {
+        allstate: 0,
+        opponent: 1,
+      },
+      {
+        allstate: 0,
+        opponent: "-",
+      },
+    ],
   },
   {
     number: 9,

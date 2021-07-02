@@ -9,17 +9,17 @@ import "./NewsPage.css";
 const NewsPage = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      {/* <div
+      <div
         style={{
           paddingBottom: "80px",
           borderBottom: "1px solid rgb(196,196,196)",
         }}
       >
         <h1 style={{ textAlign: "left", marginBottom: "9px" }}>
-          Another Rain Out, Goodman Still Injured
+          We Still Suck
         </h1>
         <h3 style={{ color: "gray", textAlign: "left", margin: "0px" }}>
-          Thursday June 24th
+          Thursday July 1st
         </h3>
         <div style={{ float: "right", margin: "30px 0px 10px 25px" }}>
           <img
@@ -33,10 +33,43 @@ const NewsPage = () => {
             OF Elijah Goodman still in intense pain after doctor visit
           </h5>
         </div>
-        <p
-          style={{ marginTop: "30px", textAlign: "left", lineHeight: "24px" }}
-        ></p>
-      </div> */}
+        <p style={{ marginTop: "30px", textAlign: "left", lineHeight: "24px" }}>
+          Team Allstate continues to be the laughing stock of the league as they
+          get blown out by Leff's Luckytown with a score of 4-19. It really is
+          pathetic at this point. Even though the team was missing key players
+          Elijah Goodman, Josh Serio, Matt Goetz and Truth, there is no excuse
+          for the team to not step up. At least make it a close game. We're
+          scared at the plate, scared to field a ball, and scared to win. The
+          only players that care and made an impact were Steve Nelsen, Seth
+          Nelsen, Donny Baseball, and somewhat Jason Fuchs. Manager Kelly
+          Goodman continued his arrogance as he moved up in the two spot. He
+          ended up with two hits in the game which lowered his batting average.
+          The team hopes this will humble the long time manager as his ego is
+          out of control. On a positive note, OF Seth Nelsen made his temporary
+          return collecting 2 hits in 3 at-bats. On the downside, this was
+          Seth's last game with the team. Manager Elijah Goodman proposed a
+          trade to the Navy to give us Seth in exchange for Stoney. The Navy
+          declined. Another positive was Donny Baseball returning to his old
+          ways going 3 for 3. Donny is a key asset to this squad but his stellar
+          performance was not enough for a victory. An investigation is
+          currently under way led by Attorney Rick Steinberg to find out who the
+          weak link of the team is and to take disciplinary actions against
+          them. P Steve Nelsen is fed up with this squad, stating "They all
+          suck.. Jason sucks, Jon sucks, Jim sucks, etc. I pitch my ass off for
+          6 innings and what do I get in return? 4 runs. This team is washed
+          up". Owner Bob 'Muthafucking Truth' Goetz and 3B Matt Goetz didn't
+          wish to acknowledge Steve's remarks and stated, "We gave up on this
+          team a long time ago. We're just happy the bucks won". The bucks beat
+          the hawks 123-112. The difference between Team Allstate and the bucks
+          is that they play different sports and that the bucks can win without
+          their star player. SS Jon Keane continues to pray for this team
+          stating "God has a plan for us" and Avery Goodman was once again seen
+          crying in the parking lot after the game. In other news, OF Josh Serio
+          failed his policeman psyche test. He states, "I had a perfect score
+          until they asked how I felt about umpires named Randy. I walked out".
+          Team Allstate plays under the lights next week against Team Sluggos.
+        </p>
+      </div>
       <div
         style={{
           paddingBottom: "80px",

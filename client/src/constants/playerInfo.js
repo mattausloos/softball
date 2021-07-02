@@ -61,7 +61,7 @@ const players = [
     position: "2B",
     img: "averygoodman.jpg",
     bio:
-      "Avery has the quickest feet of all the old timers. Umpires have inspected his knee brace thinking it gives him an advantage but there have been no suspensions. He's a valuable slap hitting second baseman that his following his older brother's footsteps",
+      "Avery has the quickest feet of all the old timers. Umpires have inspected his knee brace thinking it gives him an advantage but there have been no suspensions. He's a valuable slap hitting second baseman that is following his older brother's footsteps",
   },
   {
     name: "Jon Keane",
@@ -96,7 +96,7 @@ const players = [
       "Kelly is an egostical player that manages the team on non gamedays. He has managed the team to two championships in 2016 and 2017 but has lost respect from his teammates since then. He has been a high performing hitter when in clutch situations but tends to lie to the stat keeper saying his batting average should be higher.",
   },
   {
-    name: `Bob 'Muthafuckin Truth' Goetz`,
+    name: `Bob 'Truth' Goetz`,
     batThrows: "R/R",
     position: "GM",
     img: "bobgoetz.jpg",
@@ -126,6 +126,14 @@ const players = [
     img: "sambotbol.jpg",
     bio:
       "Sam is the utility player Team Allstate needs when they want to intimidate their opponents. When the opposing teams see Sam's 6'7\" frame they either intentionally walk him or forfeit. Sam is a wild dog without a leash so it's important the team only utilizes him when necessary.",
+  },
+  {
+    name: "Seth Nelsen",
+    batThrows: "L/R",
+    position: "OF",
+    img: "sethnelsen.jpg",
+    bio:
+      "Seth is a temporary member of Team Allstate and a permanent member of the United States Navy. Seth is a disciplined individual and dreams of putting Team Allstate through Navy bootcamp to see which players make it through. He believes Manager Kelly Goodman would be first to tap out.",
   },
 ];
 
