@@ -283,11 +283,44 @@ export const games = [
     number: 9,
     date: "July 8th",
     versus: "vs. Team Sluggos",
-    result: "",
+    result: "L",
     time: "8:00",
     field: "#1",
-    score: "",
+    score: ", 13-12",
     opponent: "Team Sluggos",
+    home: true,
+    allstateScore: 12,
+    opponentScore: 13,
+    runs: [
+      {
+        allstate: 1,
+        opponent: 1,
+      },
+      {
+        allstate: 0,
+        opponent: 4,
+      },
+      {
+        allstate: 5,
+        opponent: 2,
+      },
+      {
+        allstate: 2,
+        opponent: 1,
+      },
+      {
+        allstate: 0,
+        opponent: 4,
+      },
+      {
+        allstate: 4,
+        opponent: 1,
+      },
+      {
+        allstate: "-",
+        opponent: "-",
+      },
+    ],
   },
   {
     number: 10,

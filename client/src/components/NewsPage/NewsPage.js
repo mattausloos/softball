@@ -4,11 +4,64 @@ import image4 from "../../images/game4.jpg";
 import image5 from "../../images/jimcaughtlooking.jpg";
 import image6 from "../../images/game6meme.jpg";
 import image7 from "../../images/elijahinjuredmeme.jpg";
+import image8 from "../../images/sinkingmeme.jpg";
 import "./NewsPage.css";
 
 const NewsPage = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
+      <div
+        style={{
+          paddingBottom: "80px",
+          borderBottom: "1px solid rgb(196,196,196)",
+        }}
+      >
+        <h1 style={{ textAlign: "left", marginBottom: "9px" }}>Help Needed!</h1>
+        <h3 style={{ color: "gray", textAlign: "left", margin: "0px" }}>
+          Thursday July 8th
+        </h3>
+        <div style={{ float: "right", margin: "30px 0px 10px 25px" }}>
+          <img
+            src={image8}
+            alt="image"
+            height="390px"
+            width="450px"
+            style={{ borderRadius: "5px" }}
+          ></img>
+          <h5 style={{ color: "gray", textAlign: "left", margin: "3px" }}>
+            Team Allstate is currently hiring for the gameday management
+            position
+          </h5>
+        </div>
+        <p style={{ marginTop: "30px", textAlign: "left", lineHeight: "24px" }}>
+          Let me make this clear. Team Allstate is not going through a rough
+          patch. Team Allstate just sucks. This team is becoming the laughing
+          stock of the league. Team Allstate is so bad that they do not even
+          deserve to have an article written about them. However, since we owe
+          it to the fans to put out content we will have an article, except this
+          article is going to be a little different than the average article. No
+          game summary just insults. We will go through the entire roster and
+          insult each and every person with the hard truths. Jason Fuchs- Why
+          does it look like it’s his first time catching a ball every time the
+          ball is hit to him. Elijah Goodman –Hasn’t hit a home run in over a
+          month and is a little bitch with his little back injury. Matt Ausloos
+          – How are you 25 years old and have more injuries than Stoney? Jon
+          Keane – How were you a D2 baseball player and you lead the entire
+          league in errors? Donny Baseball – ESPN just did a poll and you got
+          voted the worst 1st baseman in softball history. Josh Serio – Remember
+          when you use to be good? Yeah that didn’t last too long. Avery Goodman
+          – The farthest ball you hit this season barely made it out of the
+          infield. Matt Goetz – Just not that good anymore. Kelly Goodman – Buys
+          the worst bats ever made. Steve Nelson – Steve forgot how to throw a
+          strike last night. Dennis Vavrik – Somehow lowered his average after
+          last game. Jim Fuchs – Jim is still looking for his 2nd hit of the
+          season. Good luck Jim! Rick Steinberg – Rick hasn’t recorded a hit all
+          season but he makes up for it by making 1 out of 10 plays at 3rd base.
+          Bob “The Truth” Goetz – Hasn’t come to a game in over a month. In
+          conclusion, this team sucks and will continue to get worse and worse
+          as time goes on. Hold on tight folks it’s about to get ugly!
+        </p>
+      </div>
       <div
         style={{
           paddingBottom: "80px",

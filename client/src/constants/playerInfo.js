@@ -135,6 +135,14 @@ const players = [
     bio:
       "Seth is a temporary member of Team Allstate and a permanent member of the United States Navy. Seth is a disciplined individual and dreams of putting Team Allstate through Navy bootcamp to see which players make it through. He believes Manager Kelly Goodman would be first to tap out.",
   },
+  {
+    name: "Andrew Bruggink",
+    batThrows: "R/R",
+    position: "SS",
+    img: "andrewbruggink.jpg",
+    bio:
+      "Andrew is a tall skinny kid that is also Jon Keane's replacement when Jon commits errors or is hurt. Andrew has made one appearance this year and performed well. Andrew is a basketball star but stated that he 'waited three years for the opportunity to play on Team Allstate'.",
+  },
 ];
 
 export default players;
