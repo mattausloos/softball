@@ -17,4 +17,6 @@ export const players = [
   "Bob 'Truth' Goetz",
   "Seth Nelsen",
   "Andrew Bruggink",
+  "Austin",
+  "Gunnar Malensak",
 ];

@@ -326,31 +326,130 @@ export const games = [
     number: 10,
     date: "July 15th",
     versus: "vs. Junky Stars",
-    result: "",
+    result: "W",
     time: "7:00",
     field: "#2",
-    score: "",
+    score: ", 3-15",
     opponent: "Junky Stars",
+    home: false,
+    allstateScore: 15,
+    opponentScore: 3,
+    runs: [
+      {
+        allstate: 4,
+        opponent: 0,
+      },
+      {
+        allstate: 5,
+        opponent: 0,
+      },
+      {
+        allstate: 3,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 1,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 2,
+      },
+      {
+        allstate: 3,
+        opponent: 0,
+      },
+    ],
   },
   {
     number: 11,
     date: "July 22nd",
     versus: "vs. Milliman",
-    result: "",
+    result: "L",
     time: "6:00",
     field: "#1",
-    score: "",
+    score: ", 14-10",
     opponent: "Milliman",
+    home: true,
+    allstateScore: 10,
+    opponentScore: 14,
+    runs: [
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 1,
+      },
+      {
+        allstate: 0,
+        opponent: 5,
+      },
+      {
+        allstate: 2,
+        opponent: 1,
+      },
+      {
+        allstate: 0,
+        opponent: 2,
+      },
+      {
+        allstate: 1,
+        opponent: 2,
+      },
+      {
+        allstate: 7,
+        opponent: 3,
+      },
+    ],
   },
   {
     number: 12,
     date: "July 29th",
     versus: "vs. Team Charter",
-    result: "",
+    result: "W",
     time: "6:00",
     field: "#2",
-    score: "",
+    score: ", 7-12",
     opponent: "Team Charter",
+    home: false,
+    allstateScore: 12,
+    opponentScore: 7,
+    runs: [
+      {
+        allstate: 3,
+        opponent: 2,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 6,
+        opponent: 0,
+      },
+      {
+        allstate: 3,
+        opponent: 3,
+      },
+      {
+        allstate: 0,
+        opponent: 2,
+      },
+      {
+        allstate: "-",
+        opponent: "-",
+      },
+    ],
   },
   {
     number: 13,

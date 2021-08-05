@@ -143,6 +143,20 @@ const players = [
     bio:
       "Andrew is a tall skinny kid that is also Jon Keane's replacement when Jon commits errors or is hurt. Andrew has made one appearance this year and performed well. Andrew is a basketball star but stated that he 'waited three years for the opportunity to play on Team Allstate'.",
   },
+  {
+    name: "Austin",
+    batThrows: "R/R",
+    position: "OF",
+    img: "noplayer.jpg",
+    bio: "Some guy Steve picked up",
+  },
+  {
+    name: "Gunnar Malensak",
+    batThrows: "R/R",
+    position: "OF",
+    img: "noplayer.jpg",
+    bio: "Another man of faith",
+  },
 ];
 
 export default players;
