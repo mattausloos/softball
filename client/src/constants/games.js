@@ -455,20 +455,141 @@ export const games = [
     number: 13,
     date: "August 5th",
     versus: "vs. Pizza Man",
-    result: "",
+    result: "W",
     time: "7:00",
     field: "#1",
-    score: "",
+    score: ", 7-14",
     opponent: "Pizza Man",
+    home: true,
+    allstateScore: 14,
+    opponentScore: 7,
+    runs: [
+      {
+        allstate: 5,
+        opponent: 3,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 2,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 7,
+        opponent: 1,
+      },
+      {
+        allstate: 2,
+        opponent: 0,
+      },
+      {
+        allstate: "-",
+        opponent: 1,
+      },
+    ],
   },
   {
     number: 14,
     date: "August 12th",
-    versus: "vs. TBD",
-    result: "",
-    time: "TBD",
-    field: "TBD",
-    score: "",
-    opponent: "",
+    versus: "vs. Sluggos Sluggers",
+    result: "W",
+    time: "7:00",
+    field: "#3",
+    score: ", 8-16",
+    opponent: "Sluggos Sluggers",
+    home: false,
+    allstateScore: 16,
+    opponentScore: 8,
+    runs: [
+      {
+        allstate: 5,
+        opponent: 3,
+      },
+      {
+        allstate: 5,
+        opponent: 0,
+      },
+      {
+        allstate: 4,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 1,
+        opponent: 0,
+      },
+      {
+        allstate: 1,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 5,
+      },
+    ],
+  },
+  {
+    number: 15,
+    date: "August 19th",
+    versus: "vs. Team Charter",
+    result: "W",
+    time: "7:00",
+    field: "#1",
+    score: ", 11-12",
+    opponent: "Team Charter",
+    home: true,
+    allstateScore: 12,
+    opponentScore: 11,
+    runs: [
+      {
+        allstate: 5,
+        opponent: 1,
+      },
+      {
+        allstate: 2,
+        opponent: 1,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 2,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 0,
+        opponent: 4,
+      },
+      {
+        allstate: 1,
+        opponent: 4,
+      },
+      {
+        allstate: 1,
+        opponent: 1,
+      },
+      {
+        allstate: 0,
+        opponent: 0,
+      },
+      {
+        allstate: 1,
+        opponent: 0,
+      },
+    ],
   },
 ];

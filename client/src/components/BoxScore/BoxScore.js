@@ -142,6 +142,13 @@ const BoxScore = (props) => {
               <td>5</td>
               <td>6</td>
               <td>7</td>
+              {props.game === 15 && (
+                <>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                </>
+              )}
               <td style={{ fontWeight: "700" }}>R</td>
             </thead>
             <tbody>
@@ -207,6 +214,31 @@ const BoxScore = (props) => {
                     : games.find((game) => game.number === props.game).runs[6]
                         .allstate}
                 </td>
+                {props.game === 15 && (
+                  <>
+                    <td>
+                      {games.find((game) => game.number === props.game).home
+                        ? games.find((game) => game.number === props.game)
+                            .runs[7].opponent
+                        : games.find((game) => game.number === props.game)
+                            .runs[7].allstate}
+                    </td>
+                    <td>
+                      {games.find((game) => game.number === props.game).home
+                        ? games.find((game) => game.number === props.game)
+                            .runs[8].opponent
+                        : games.find((game) => game.number === props.game)
+                            .runs[8].allstate}
+                    </td>
+                    <td>
+                      {games.find((game) => game.number === props.game).home
+                        ? games.find((game) => game.number === props.game)
+                            .runs[9].opponent
+                        : games.find((game) => game.number === props.game)
+                            .runs[9].allstate}
+                    </td>
+                  </>
+                )}
                 <td style={{ fontWeight: "700" }}>
                   {games.find((game) => game.number === props.game).home
                     ? games.find((game) => game.number === props.game)
@@ -277,6 +309,31 @@ const BoxScore = (props) => {
                     : games.find((game) => game.number === props.game).runs[6]
                         .opponent}
                 </td>
+                {props.game === 15 && (
+                  <>
+                    <td>
+                      {games.find((game) => game.number === props.game).home
+                        ? games.find((game) => game.number === props.game)
+                            .runs[7].allstate
+                        : games.find((game) => game.number === props.game)
+                            .runs[7].opponent}
+                    </td>
+                    <td>
+                      {games.find((game) => game.number === props.game).home
+                        ? games.find((game) => game.number === props.game)
+                            .runs[8].allstate
+                        : games.find((game) => game.number === props.game)
+                            .runs[8].opponent}
+                    </td>
+                    <td>
+                      {games.find((game) => game.number === props.game).home
+                        ? games.find((game) => game.number === props.game)
+                            .runs[9].allstate
+                        : games.find((game) => game.number === props.game)
+                            .runs[9].opponent}
+                    </td>
+                  </>
+                )}
                 <td style={{ fontWeight: "700" }}>
                   {games.find((game) => game.number === props.game).home
                     ? games.find((game) => game.number === props.game)

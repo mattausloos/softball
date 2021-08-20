@@ -157,6 +157,13 @@ const players = [
     img: "noplayer.jpg",
     bio: "Another man of faith",
   },
+  {
+    name: "Michael Barnes",
+    batThrows: "R/R",
+    position: "OF",
+    img: "noplayer.jpg",
+    bio: "Michael is an illegal player Elijah picked up for the playoffs.",
+  },
 ];
 
 export default players;

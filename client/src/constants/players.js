@@ -19,4 +19,5 @@ export const players = [
   "Andrew Bruggink",
   "Austin",
   "Gunnar Malensak",
+  "Michael Barnes",
 ];
